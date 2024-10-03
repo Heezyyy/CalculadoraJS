@@ -67,7 +67,8 @@ switch (option) {
         break;
 
     default:
-        console.log("Opção inválida, por favor escolha uma das opções!")
+        console.log("\nOpção inválida, por favor escolha uma das opções!")
+        console.log()
 }
 
 } while(option!==5); //o programa só pode ser parado ao usuário escolher 5.
