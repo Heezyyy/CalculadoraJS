@@ -62,7 +62,8 @@ switch (option) {
         break;
     
     case 5:
-        console.log("Finalizando o programa...")
+        console.log("\nFinalizando o programa...")
+        console.log()
         break;
 
     default:
