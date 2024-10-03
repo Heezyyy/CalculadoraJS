@@ -1,8 +1,14 @@
 const prompt = require  ('prompt-sync')({sigint: true});
 
+function clearScreen() {
+    console.clear(); 
+}
+
 let option;
 
 do{
+    clearScreen();
+
 console.log("\n=====CALCULADORA=====");  
 
 console.log("\n1:Soma")
@@ -69,6 +75,9 @@ switch (option) {
     default:
         console.log("\nOpção inválida, por favor escolha uma das opções!")
         console.log()
+}
+if (option !==5){
+    prompt("\nPressione ENTER para continuar...");
 }
 
 } while(option!==5); //o programa só pode ser parado ao usuário escolher 5.
